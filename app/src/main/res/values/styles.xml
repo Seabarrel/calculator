@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="calculatorButton" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">150dp</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_margin">0.8dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="fontFamily">sans-serif</item>
+
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="backgroundTint">@color/button_color</item>
+    </style>
+
+    <style name="importantButton" parent="calculatorButton">
+        <item name="backgroundTint">@color/important_button_color</item>
+        <item name="android:textColor">@color/important_text_color</item>
+    </style>
+
+    <style name="darkerButton" parent="calculatorButton">
+        <item name="backgroundTint">@color/darker_button_color</item>
+    </style>
+
+    <style name="specialButton" parent="darkerButton">
+        <item name="android:textColor">@color/special_text_color</item>
+    </style>
+
+</resources>
